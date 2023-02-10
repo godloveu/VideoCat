@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VideoCat</class>
+ <widget class="QWidget" name="VideoCat">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>806</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>VideoCat</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1300</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>300</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>300</width>
+       <height>800</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(85, 85, 255);
+border-radius:30px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>0</y>
+       <width>200</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/image/image/logo.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>200</y>
+       <width>200</width>
+       <height>300</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#pushButton{
+	border:none;
+	color: rgb(85, 85, 255);
+	font: 18pt &quot;华文行楷&quot;;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}
+#pushButton:hover{
+	border:none;
+	color: rgb(85, 85, 255);
+	font: 18pt &quot;华文行楷&quot;;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}
+#pushButton:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+#pushButton:focus{
+    border:none;
+	color: rgb(85, 85, 255);
+	font: 18pt &quot;华文行楷&quot;;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}</string>
+        </property>
+        <property name="text">
+         <string>首页</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#pushButton_2{
+    border:none;
+	color: rgb(255, 255, 255);
+	font: 18pt &quot;华文行楷&quot;;
+}
+#pushButton_2:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+#pushButton_2:hover{
+	border:none;
+	color: rgb(85, 85, 255);
+	font: 18pt &quot;华文行楷&quot;;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}
+#pushButton_2:focus{
+    border:none;
+	color: rgb(85, 85, 255);
+	font: 18pt &quot;华文行楷&quot;;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}</string>
+        </property>
+        <property name="text">
+         <string>设置</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#pushButton_3{
+    border:none;
+	color: rgb(255, 255, 255);
+	font: 18pt &quot;华文行楷&quot;;
+}
+#pushButton_3:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+#pushButton_3:hover{
+	border:none;
+	color: rgb(85, 85, 255);
+	font: 18pt &quot;华文行楷&quot;;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}
+#pushButton_3:focus{
+    border:none;
+	color: rgb(85, 85, 255);
+	font: 18pt &quot;华文行楷&quot;;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}</string>
+        </property>
+        <property name="text">
+         <string>打赏</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#pushButton_4{
+    border:none;
+	color: rgb(255, 255, 255);
+	font: 18pt &quot;华文行楷&quot;;
+}
+#pushButton_4:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+#pushButton_4:hover{
+	border:none;
+	color: rgb(85, 85, 255);
+	font: 18pt &quot;华文行楷&quot;;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}
+#pushButton_4:focus{
+    border:none;
+	color: rgb(85, 85, 255);
+	font: 18pt &quot;华文行楷&quot;;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}</string>
+        </property>
+        <property name="text">
+         <string>关于</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#pushButton_5{
+    border:none;
+	color: rgb(255, 255, 255);
+	font: 18pt &quot;华文行楷&quot;;
+}
+#pushButton_5:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}
+#pushButton_5:hover{
+	border:none;
+	color: rgb(85, 85, 255);
+	font: 18pt &quot;华文行楷&quot;;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}
+#pushButton_5:focus{
+    border:none;
+	color: rgb(85, 85, 255);
+	font: 18pt &quot;华文行楷&quot;;
+	background-color: rgb(255, 255, 255);
+	border-radius:20px;
+}</string>
+        </property>
+        <property name="text">
+         <string>退出</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>0</y>
+      <width>1050</width>
+      <height>800</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1050</width>
+       <height>800</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::StrongFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:30px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Sunken</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>960</x>
+       <y>10</y>
+       <width>72</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>10</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/ico/ico/lower.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/ico/ico/close.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>50</y>
+       <width>900</width>
+       <height>700</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page">
+      <widget class="QWidget" name="widget_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>900</width>
+         <height>700</height>
+        </rect>
+       </property>
+       <widget class="QWidget" name="widget_7" native="true">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>900</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="widget_8" native="true">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>200</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>100</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+          </property>
+          <property name="text">
+           <string>选择类型</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="comboBox">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>5</y>
+            <width>100</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#comboBox {
+	border-radius:10px;
+	font: 16pt &quot;华文行楷&quot;;
+	border-color: rgb(85, 85, 255);
+	border-style: outset;
+    border-width: 1px;
+}
+
+#comboBox:editable {
+    background: rgb(85, 85, 255);
+}
+
+
+</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>主页</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>喜欢</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>合集</string>
+           </property>
+          </item>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="widget_9" native="true">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>0</y>
+           <width>450</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>0</y>
+            <width>100</width>
+            <height>50</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+          </property>
+          <property name="text">
+           <string>分享链接</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="lineEdit">
+          <property name="geometry">
+           <rect>
+            <x>150</x>
+            <y>5</y>
+            <width>300</width>
+            <height>40</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#lineEdit {
+	font: 75 12pt &quot;Alimama ShuHeiTi&quot;;
+    border-style: outset;
+    border-width: 2px;
+	border-color: rgb(85, 85, 255);
+	border-radius:10px
+}</string>
+          </property>
+          <property name="placeholderText">
+           <string>请输入分享链接</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="widget_10" native="true">
+         <property name="geometry">
+          <rect>
+           <x>650</x>
+           <y>0</y>
+           <width>250</width>
+           <height>50</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="spacing">
+           <number>10</number>
+          </property>
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>20</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="pushButton_8">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#pushButton_8{
+	border:none;
+	color: rgb(255, 255, 255);
+	font: 15pt &quot;华文行楷&quot;;
+	background-color: rgb(85, 85, 255);
+	border-radius:20px;
+}
+#pushButton_8:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}</string>
+            </property>
+            <property name="text">
+             <string>获取数据</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_9">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">#pushButton_9{
+	border:none;
+	color: rgb(255, 255, 255);
+	font: 15pt &quot;华文行楷&quot;;
+	background-color: rgb(85, 85, 255);
+	border-radius:20px;
+}
+#pushButton_9:pressed{
+	padding-left:5px;
+	padding-top:5px;
+}</string>
+            </property>
+            <property name="text">
+             <string>全部下载</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="widget_11" native="true">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>650</y>
+          <width>900</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <widget class="QLabel" name="label_18">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>60</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>视频数量：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_19">
+         <property name="geometry">
+          <rect>
+           <x>60</x>
+           <y>20</y>
+           <width>140</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_20">
+         <property name="geometry">
+          <rect>
+           <x>200</x>
+           <y>20</y>
+           <width>60</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>下载成功：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_21">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>20</y>
+           <width>140</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>400</x>
+           <y>20</y>
+           <width>60</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>下载失败：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>460</x>
+           <y>20</y>
+           <width>140</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="widget_12" native="true">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>50</y>
+          <width>900</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <widget class="QLabel" name="label_6">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>50</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>用户名：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_7">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>20</y>
+           <width>200</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>未获取</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_16">
+         <property name="geometry">
+          <rect>
+           <x>800</x>
+           <y>20</y>
+           <width>60</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>视频类型：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_17">
+         <property name="geometry">
+          <rect>
+           <x>860</x>
+           <y>20</y>
+           <width>40</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>未获取</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_24">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>20</y>
+           <width>60</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>合集名称：</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_25">
+         <property name="geometry">
+          <rect>
+           <x>310</x>
+           <y>20</y>
+           <width>200</width>
+           <height>12</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>未获取</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>100</y>
+          <width>900</width>
+          <height>550</height>
+         </rect>
+        </property>
+        <property name="gridStyle">
+         <enum>Qt::NoPen</enum>
+        </property>
+        <property name="rowCount">
+         <number>0</number>
+        </property>
+        <column>
+         <property name="text">
+          <string>ID</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>标题</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>链接</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>状态</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>操作</string>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="textAlignment">
+          <set>AlignCenter</set>
+         </property>
+        </column>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <widget class="QWidget" name="widget_19" native="true">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>100</y>
+         <width>900</width>
+         <height>150</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="label_40">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>900</width>
+          <height>150</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_41">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>100</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;华文行楷&quot;;</string>
+        </property>
+        <property name="text">
+         <string>输出日志</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_19">
+        <property name="geometry">
+         <rect>
+          <x>820</x>
+          <y>35</y>
+          <width>35</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/ico/ico/open.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_20">
+        <property name="geometry">
+         <rect>
+          <x>820</x>
+          <y>35</y>
+          <width>35</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/ico/ico/shut.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_42">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>70</y>
+          <width>100</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;华文行楷&quot;;</string>
+        </property>
+        <property name="text">
+         <string>保存路径</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>80</y>
+          <width>300</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#lineEdit_6 {
+	font: 75 10pt &quot;Alimama ShuHeiTi&quot;;
+    border-style: outset;
+    border-width: 2px;
+	border-color: rgb(85, 85, 255);
+	border-radius:10px
+}</string>
+        </property>
+        <property name="placeholderText">
+         <string>默认放在软件下Download目录</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_21">
+        <property name="geometry">
+         <rect>
+          <x>800</x>
+          <y>82</y>
+          <width>55</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#pushButton_21{
+	color: rgb(255, 255, 255);
+	background-color: rgb(85, 85, 255);
+	border-radius:10px;
+}
+#pushButton_21:pressed{
+	padding-left:2.5px;
+	padding-top:3px;
+}</string>
+        </property>
+        <property name="text">
+         <string>更改</string>
+        </property>
+       </widget>
+       <zorder>label_40</zorder>
+       <zorder>label_41</zorder>
+       <zorder>pushButton_20</zorder>
+       <zorder>label_42</zorder>
+       <zorder>lineEdit_6</zorder>
+       <zorder>pushButton_21</zorder>
+       <zorder>pushButton_19</zorder>
+      </widget>
+      <widget class="QLabel" name="label_43">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>60</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 22pt &quot;华文行楷&quot;;</string>
+       </property>
+       <property name="text">
+        <string>设置</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_3">
+      <widget class="QLabel" name="label_48">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>50</y>
+         <width>300</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 17pt &quot;华文行楷&quot;;</string>
+       </property>
+       <property name="text">
+        <string>你的支持就是作者最大的动力</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_20" native="true">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>150</y>
+         <width>700</width>
+         <height>300</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <property name="spacing">
+         <number>100</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_46">
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/image/image/wxPay.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_47">
+          <property name="minimumSize">
+           <size>
+            <width>300</width>
+            <height>300</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border-image: url(:/image/image/aliPay.jpg);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLabel" name="label_49">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>60</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 22pt &quot;华文行楷&quot;;</string>
+       </property>
+       <property name="text">
+        <string>赞助</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_21" native="true">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>450</y>
+         <width>700</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_10">
+        <property name="spacing">
+         <number>100</number>
+        </property>
+        <property name="leftMargin">
+         <number>0</number>
+        </property>
+        <property name="topMargin">
+         <number>0</number>
+        </property>
+        <property name="rightMargin">
+         <number>0</number>
+        </property>
+        <property name="bottomMargin">
+         <number>0</number>
+        </property>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="label_50">
+          <property name="styleSheet">
+           <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+          </property>
+          <property name="text">
+           <string>微信</string>
+          </property>
+         </widget>
+        </item>
+        <item alignment="Qt::AlignHCenter">
+         <widget class="QLabel" name="label_51">
+          <property name="styleSheet">
+           <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+          </property>
+          <property name="text">
+           <string>支付宝</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_4">
+      <widget class="QLabel" name="label_52">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>50</y>
+         <width>200</width>
+         <height>200</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-image: url(:/image/image/logo.png);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_53">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>60</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 22pt &quot;华文行楷&quot;;</string>
+       </property>
+       <property name="text">
+        <string>关于</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_23" native="true">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>300</y>
+         <width>700</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="label_59">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>0</y>
+          <width>620</width>
+          <height>40</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;新宋体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>VideoCat(视频猫) 是一款专注于做视频爬虫的软件，目前仅支持抖音，
+后续将会不断进行更新和优化，感谢大家使用。</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_60">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>80</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;华文行楷&quot;;</string>
+        </property>
+        <property name="text">
+         <string>介绍：</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_22" native="true">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>350</y>
+         <width>700</width>
+         <height>150</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="label_61">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>700</width>
+          <height>120</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(240, 240, 240);
+border-radius:20px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_62">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>70</y>
+          <width>100</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;华文行楷&quot;;</string>
+        </property>
+        <property name="text">
+         <string>开发者</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_33">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>10</y>
+          <width>70</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(85, 85, 255);
+border-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string>v 1.0.2</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_63">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>100</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 14pt &quot;华文行楷&quot;;</string>
+        </property>
+        <property name="text">
+         <string>当前版本</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_34">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>70</y>
+          <width>70</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(85, 85, 255);
+border-radius:10px;</string>
+        </property>
+        <property name="text">
+         <string>Comfort</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_64">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>230</y>
+         <width>125</width>
+         <height>50</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 20pt &quot;方正粗黑宋简体&quot;;</string>
+       </property>
+       <property name="text">
+        <string>VideoCat</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <zorder>widget_3</zorder>
+   <zorder>widget_2</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>VideoCat</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1240</x>
+     <y>39</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1268</x>
+     <y>77</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>VideoCat</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1281</x>
+     <y>39</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1299</x>
+     <y>48</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_19</sender>
+   <signal>clicked()</signal>
+   <receiver>pushButton_20</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1299</x>
+     <y>291</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1278</x>
+     <y>295</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_20</sender>
+   <signal>clicked()</signal>
+   <receiver>pushButton_19</receiver>
+   <slot>show()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1290</x>
+     <y>294</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1295</x>
+     <y>294</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_19</sender>
+   <signal>clicked()</signal>
+   <receiver>pushButton_19</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1280</x>
+     <y>294</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1284</x>
+     <y>292</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_20</sender>
+   <signal>clicked()</signal>
+   <receiver>pushButton_20</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1277</x>
+     <y>286</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1283</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>VideoCat</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>487</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>79</x>
+     <y>566</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

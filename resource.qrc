@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="ico">
+    <file>ico/update.png</file>
+    <file>ico/open.png</file>
+    <file>ico/shut.png</file>
+    <file>ico/close.png</file>
+    <file>ico/lower.png</file>
+  </qresource>
+  <qresource prefix="image">
+    <file>image/wxPay.jpg</file>
+    <file>image/aliPay.jpg</file>
+    <file>image/logo.png</file>
+  </qresource>
+</RCC>
