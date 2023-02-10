@@ -12,9 +12,7 @@ VideoCat是一款基于Python使用Pyqt5开发的视频爬虫工具，目前仅�
 
 ## 软件展示
 
-![](https://dav.uoll.cn/d/%E9%98%BF%E9%87%8C%E4%BA%91/Blog/%E8%BD%AF%E4%BB%B6%E6%94%B6%E8%97%8F/Windows/%E5%9B%BE%E7%89%87/81Q6%5DKDDCIYG6PV5LKQX5K7.png?sign=RLqG62rSpIcHd_BxcEh2jGCtMmX8q8OoRH5X74cAOds=:0)
-
-![](?sign=33dLcXl0QpvCJc-NjjeQcuB2Ohb949FuwJUQgJrf_l8=:0)
+![](imager/81Q6]KDDCIYG6PV5LKQX5K7.png)
 
 ## 教程
 
